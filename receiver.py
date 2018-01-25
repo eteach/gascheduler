@@ -117,7 +117,7 @@ class ReceiverAgent(spade.Agent.Agent):
 
 if __name__ == "__main__":
 	#r = ReceiverAgent("taskscheduler@ubuntu.local", "actormanager", "secret")
-	r = ReceiverAgent("taskscheduler@ubuntu.local", "secret")
+	r = ReceiverAgent("taskscheduler@r7.local", resource="actormanager", password="secret")
 	r.start()
 
 alive = True
